@@ -32,7 +32,7 @@ public class HomeworkTestClass {
         );
         mainText.check(
                 matches(
-                        withText("This is home fragment",mainText)
+                        withText("This is home fragment")
                 )
         );
     }
